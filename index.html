@@ -42,8 +42,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 40px;
             box-shadow: 0 8px 24px rgba(14, 165, 233, 0.3);
+            padding: 12px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .status {
@@ -237,7 +243,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">📱</div>
+        <div class="logo">
+            <img src="logo.png" alt="FaceRaterBro Logo" />
+        </div>
         <div style="text-align: center;">
             <span class="status">✓ We're here to help!</span>
         </div>
@@ -274,7 +282,7 @@
                 </svg>
                 <div class="contact-item-content">
                     <div class="contact-label">Response Time</div>
-                    <div class="contact-value">Within 24 hours</div>
+                    <div class="contact-value">Within 72 hours</div>
                 </div>
             </div>
         </div>
@@ -288,6 +296,15 @@
                 <li>Feature requests</li>
                 <li>General questions</li>
             </ul>
+        </div>
+
+        <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="terms.html" style="color: #0ea5e9; text-decoration: none; font-size: 14px; font-weight: 500;">Terms of Use</a>
+                <span style="color: rgba(255, 255, 255, 0.2);">|</span>
+                <a href="privacy.html" style="color: #0ea5e9; text-decoration: none; font-size: 14px; font-weight: 500;">Privacy Policy</a>
+            </div>
+            <p style="color: #64748B; font-size: 12px; margin-top: 16px;">© 2025 FaceRaterBro. All rights reserved.</p>
         </div>
     </div>
 
